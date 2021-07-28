@@ -5,7 +5,8 @@ import cors from "cors";
  
 
 const app = express();
-//this is deprecated from express version 4.16.0 or later.......
+//updated from my laptop
+//this is deprecated from express version 4.16.0 or later.
 // app.use(bodyParser.json());
 // app.use(bodyParser.urlencoded({limit:"30mb",extended:true}));
 app.use(express.json({limit:"30mb",extended:true}));
